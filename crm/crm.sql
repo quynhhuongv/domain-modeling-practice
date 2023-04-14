@@ -43,4 +43,9 @@ CREATE TABLE industries (
     name TEXT
 );
 
+CREATE TABLE industry_membership (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, 
+    company_id INTEGER,
+    industry_id INTEGER
+);
 
